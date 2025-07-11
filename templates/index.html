@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ryanair Watcher</title>
+</head>
+<body>
+  <h1>✈️ Ryanair Watcher</h1>
+  <form method="post">
+    <button type="submit">📧 Invia email di test</button>
+  </form>
+  {% if messaggio %}
+    <p>{{ messaggio }}</p>
+  {% endif %}
+</body>
+</html>
